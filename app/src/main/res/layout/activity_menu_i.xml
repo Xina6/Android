@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPasta"
+            android:layout_width="480dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pasta"
+            ></Button>
+
+        <Button
+            android:id="@+id/btnDrinks"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/drink"
+             >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnVegetables"
+            android:layout_width="294dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/vegan"
+            ></Button>
+
+        <Button
+            android:id="@+id/btnDessert"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/desert"
+            >
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPizza"
+            android:layout_width="528dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/pizza"
+           ></Button>
+
+        <Button
+            android:id="@+id/btnSoup"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/soup"
+             >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

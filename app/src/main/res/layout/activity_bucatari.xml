@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Review">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d1d1d1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="381dp"
+            android:layout_height="168dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:text=' \n \t \tUn eveniment special? Acesta ar presupune un efort din partea gazdei: câteva ore bune petrecute în bucătărie. Dacă apelezi la echipa de "chefi", poţi să scapi de o mare bătaie de cap: ei te ajută să stabileşti meniul, ei fac cumpărărăturile şi tot ei gătesc. \n \t \t Clienţii pot alege multe feluri de mâncăruri fine, specialităţi italiene, cu ingrediente proaspete, cumpărate cu doar câteva ore înainte de cina festivă.' />
+
+        <Button
+            android:id="@+id/chef1"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:background="@drawable/black"
+            android:textColor="#ffff"
+            android:text="Chef Codrin Popescu" />
+
+        <Button
+            android:id="@+id/chef2"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:background="@drawable/booking"
+            android:text="Chef Radu Dumitrescu" />
+
+        <Button
+            android:id="@+id/chef3"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:background="@drawable/black"
+            android:textColor="#ffff"
+            android:text="Chef Andrei Popa" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

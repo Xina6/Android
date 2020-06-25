@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".Chef3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:text='\n \n \t Chef Andrei Popa \n \n \n \n \n \t "Mancarea este modalitatea prin care le spui oamenilor cat de mult ii apreciezi" \n \n \n \n \n \n Specialiti: \n \t -supe crema \n \t -pizza \n \t -bauturi \n \t -salate \n \n \n \n \n \t Il recomandam pe Andrei datorita capacitatilor sale. Un bucatar adevarat rebuie sa aiba aptitudini, un gust deosebit si o foarte buna organizare, de asemenea sa reziste sub presiune.' />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bucatar3" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:text="\n \t \tDate de contact: \n \n Numar de telefon: 07245335524 \n \nDisponibilitate: Luni-Joi \n \n Tarif mediu: 350 LEI" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".AddF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="66dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REZERVARE"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                 />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="34dp" />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#ffff"
+                android:textColor="#ffff"
+                android:hint="Nume" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <EditText
+            android:id="@+id/txtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"
+            android:hint="Numarul de persoane" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+            <EditText
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:textColorHint="#ffff"
+                android:textColor="#ffff"
+                android:hint="Descriere comanda" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+            <EditText
+                android:id="@+id/txtSpecifications"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:textColorHint="#ffff"
+                android:textColor="#ffff"
+                android:hint="Detalii suplimentare" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numar de telefon"
+            android:textColorHint="#ffff"
+            android:textColor="#ffff"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="14dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adauga Rezervare"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
