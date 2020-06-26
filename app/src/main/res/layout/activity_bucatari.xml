@@ -15,14 +15,16 @@
         tools:layout_editor_absoluteY="0dp">
 
 
-        <TextView
+        <ImageView
             android:id="@+id/txtNumber"
             android:layout_width="381dp"
             android:layout_height="168dp"
             android:layout_marginLeft="20dp"
             android:textStyle="italic"
-            android:textColor="@color/black"
-            android:text=' \n \t \tUn eveniment special? Acesta ar presupune un efort din partea gazdei: câteva ore bune petrecute în bucătărie. Dacă apelezi la echipa de "chefi", poţi să scapi de o mare bătaie de cap: ei te ajută să stabileşti meniul, ei fac cumpărărăturile şi tot ei gătesc. \n \t \t Clienţii pot alege multe feluri de mâncăruri fine, specialităţi italiene, cu ingrediente proaspete, cumpărate cu doar câteva ore înainte de cina festivă.' />
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/kitchen"
+             />
 
         <Button
             android:id="@+id/chef1"
