@@ -16,7 +16,10 @@
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
         android:orientation="vertical">
 
             <Space
@@ -34,11 +37,9 @@
                 android:textStyle="bold"
                  />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="34dp" />
 
             <EditText
+                android:paddingTop="34dp"
                 android:id="@+id/txtName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,11 +47,9 @@
                 android:textColor="#ffff"
                 android:hint="Nume" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
 
         <EditText
+            android:paddingTop="14dp"
             android:id="@+id/txtNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,11 +57,9 @@
             android:textColor="#ffff"
             android:hint="Numarul de persoane" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
 
             <EditText
+                android:paddingTop="14dp"
                 android:id="@+id/txtDescription"
                 android:layout_width="match_parent"
                 android:layout_height="76dp"
@@ -70,11 +67,10 @@
                 android:textColor="#ffff"
                 android:hint="Descriere comanda" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
+
 
             <EditText
+                android:paddingTop="14dp"
                 android:id="@+id/txtSpecifications"
                 android:layout_width="match_parent"
                 android:layout_height="79dp"
@@ -82,32 +78,45 @@
                 android:textColor="#ffff"
                 android:hint="Detalii suplimentare" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
 
         <EditText
+            android:paddingTop="14dp"
             android:id="@+id/txtPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Numar de telefon"
             android:textColorHint="#ffff"
             android:textColor="#ffff"/>
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Selectati data"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="14dp" />
+            <TextView
+                android:paddingTop="20dp"
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Selectati ora"
+                android:textSize="20dp"
+                android:paddingBottom="20dp"
+                android:textColorHint="#FFFFFF" />
+
 
         <Button
+
             android:id="@+id/btnAdd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Adauga Rezervare"
             />
+
 
         </LinearLayout>
 

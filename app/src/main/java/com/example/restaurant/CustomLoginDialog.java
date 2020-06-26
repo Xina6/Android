@@ -29,7 +29,7 @@ public class CustomLoginDialog extends DialogFragment {
         builder.setPositiveButton("Autentificare", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if(emailText.getText().toString().contentEquals("admin"))
+                if(emailText.getText().toString().contentEquals("admin") && passwordText.getText().toString().contentEquals("admin"))
                 {
                     Toast.makeText(getActivity(), "Corect!", Toast.LENGTH_SHORT).show();
 

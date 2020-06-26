@@ -13,15 +13,15 @@
 
         <Button
             android:id="@+id/btnChef"
-            android:layout_width="388dp"
-            android:layout_height="376dp"
+            android:layout_width="438dp"
+            android:layout_height="fill_parent"
             android:layout_weight="1"
             android:background="@drawable/bucatar"></Button>
 
         <Button
             android:id="@+id/btnBooking"
             android:layout_width="fill_parent"
-            android:layout_height="90dp"
+            android:layout_height="fill_parent"
             android:layout_weight="1"
             android:background="@drawable/black"
             android:text="REZERVARE MASA"
@@ -39,8 +39,8 @@
 
         <Button
             android:id="@+id/btnReviews"
-            android:layout_width="wrap_content"
-            android:layout_height="64dp"
+            android:layout_width="387dp"
+            android:layout_height="fill_parent"
             android:layout_weight="1"
             android:background="@drawable/black"
             android:text="RECENZII"
