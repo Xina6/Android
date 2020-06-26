@@ -4,6 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#EDEDDF"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
     >
 
     <ListView

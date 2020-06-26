@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:textColor="#fff"
             android:textSize="16dp"
-            android:text='\n \n \t Chef CODRIN POPESCU \n \n \n \n \n \t "Bucătăria este locul în care simt că trăiesc cu adevărat." \n \n \n \n \n \n Specialiti: \n \t -paste \n \t -pizza \n \t -salate \n \n \n \n \n \t Il recomandam pe Codrin datorita capacitatilor sale. Un bucatar adevarat rebuie sa aiba aptitudini, un gust deosebit si o foarte buna organizare, de asemenea sa reziste sub presiune.'/>
+            android:text='\n \n \t Chef CODRIN POPESCU \n \n \n \n \n \t "Bucătăria este locul în care simt că trăiesc cu adevărat." \n \n \n \n \n \n Specialiti: \n \t -paste \n \t -pizza \n \t -salate \n \n \n \n \n \t Il recomandam pe Codrin datorita capacitatilor sale. Un bucatar adevarat trebuie sa aiba aptitudini, un gust deosebit si o foarte buna organizare, de asemenea sa reziste sub presiune.'/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,8 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="#fff"
-            android:text="\n \t \tDate de contact: \n \n Numar de telefon: 07245735524 \n \nDisponibilitate: Luni-Sambata \n \n Tarif mediu: 300 LEI" />
+            android:text="\n \t \tDate de contact: \n \n Numar de telefon: 07245735524 \n \nDisponibilitate: Luni-Sambata \n  Tarif mediu: 300 LEI"
+            android:textColor="#fff" />
     </LinearLayout>
 
     </LinearLayout>

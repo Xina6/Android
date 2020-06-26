@@ -7,7 +7,7 @@
     android:background="#FFFFFF"
     android:orientation="vertical"
     android:paddingLeft="10dp"
-    android:paddingTop="40dp"
+    android:paddingTop="20dp"
     android:paddingRight="10dp"
     android:paddingBottom="20dp"
     app:srcCompat="@mipmap/ic_launcher">
@@ -20,14 +20,15 @@
         android:id="@+id/tv_product_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+
         android:background="#3A000000"
+        android:text="Name"
         android:textColor="#ffff"
         android:textSize="30dp" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="99dp" />
+        android:layout_height="96dp" />
 
     <LinearLayout
         android:layout_width="fill_parent"

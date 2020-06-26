@@ -20,11 +20,11 @@
             android:layout_weight="1" />
 
         <Button
-            android:paddingStart="40dp"
             android:id="@+id/btnPasta"
-            android:layout_width="164dp"
-            android:layout_height="182dp"
-            android:background="@drawable/macaroni1"></Button>
+            android:layout_width="166dp"
+            android:layout_height="158dp"
+            android:background="@drawable/macaroni1"
+            android:paddingStart="40dp"></Button>
 
         <Space
             android:layout_width="wrap_content"
@@ -32,11 +32,11 @@
             android:layout_weight="1" />
 
         <Button
-            android:paddingStart="40dp"
             android:id="@+id/btnDrinks"
-            android:layout_width="172dp"
-            android:layout_height="183dp"
-            android:background="@drawable/drink1"></Button>
+            android:layout_width="166dp"
+            android:layout_height="158dp"
+            android:background="@drawable/drink1"
+            android:paddingStart="40dp"></Button>
 
         <Space
             android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         <Button
             android:id="@+id/btnVegetables"
             android:layout_width="166dp"
-            android:layout_height="182dp"
+            android:layout_height="158dp"
             android:background="@drawable/salad1"></Button>
 
         <Space
@@ -69,8 +69,8 @@
 
         <Button
             android:id="@+id/btnDessert"
-            android:layout_width="186dp"
-            android:layout_height="186dp"
+            android:layout_width="166dp"
+            android:layout_height="158dp"
 
             android:background="@drawable/dessert"></Button>
 
@@ -93,8 +93,8 @@
 
         <Button
             android:id="@+id/btnPizza"
-            android:layout_width="181dp"
-            android:layout_height="167dp"
+            android:layout_width="166dp"
+            android:layout_height="158dp"
             android:background="@drawable/pizza1"></Button>
 
         <Space
@@ -104,8 +104,8 @@
 
         <Button
             android:id="@+id/btnSoup"
-            android:layout_width="176dp"
-            android:layout_height="171dp"
+            android:layout_width="166dp"
+            android:layout_height="158dp"
             android:background="@drawable/traditional"></Button>
 
         <Space

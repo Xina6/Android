@@ -3,8 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#fff"
+    android:background="#D2D4DC"
     android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
     tools:context=".Review">
 
     <LinearLayout
@@ -16,11 +20,20 @@
         tools:layout_editor_absoluteY="0dp">
 
 
+        <ListView
+            android:id="@+id/listview_review"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:background="@drawable/black" />
+
         <EditText
+
             android:id="@+id/txtNameC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Numele dumneavoastra" />
+            android:hint="Numele dumneavoastra"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="701dp" />
 
         <EditText
             android:id="@+id/txtDescription"
@@ -40,14 +53,9 @@
             android:layout_height="wrap_content"
             android:text="Adaugare recenzie" />
 
-        <ListView
-            android:id="@+id/listview_review"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/black"
-            />
-
     </LinearLayout>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

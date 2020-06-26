@@ -4,7 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#d1d1d1"
+    android:paddingRight="30dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:paddingLeft="30dp"
     android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtRez"
+        android:layout_width="341dp"
+        android:layout_height="408dp"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/txtId"
@@ -17,13 +27,7 @@
     <Button
         android:id="@+id/btnDel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="68dp"
         android:text="Sterge rezervarea" />
-
-    <TextView
-        android:id="@+id/txtRez"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp" />
 
 </LinearLayout>

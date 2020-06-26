@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             android:textColor="#fff"
             android:textSize="16dp"
-            android:text='\n \n \t Chef Andrei Popa \n \n \n \n \n \t "Mancarea este modalitatea prin care le spui oamenilor cat de mult ii apreciezi" \n \n \n \n \n \n Specialiti: \n \t -supe crema \n \t -pizza \n \t -bauturi \n \t -salate \n \n \n \n \n \t Il recomandam pe Andrei datorita capacitatilor sale. Un bucatar adevarat rebuie sa aiba aptitudini, un gust deosebit si o foarte buna organizare, de asemenea sa reziste sub presiune.' />
+            android:text='\n \n \t Chef Andrei Popa \n \n \n \n \n \t "Mancarea este modalitatea prin care le spui oamenilor cat de mult ii apreciezi" \n \n \n \n \n \n Specialiti: \n \t -supe crema \n \t -pizza \n \t -bauturi \n \t -salate \n \n \n \n \n \t Il recomandam pe Andrei datorita calitatilor sale. ' />
 
         <LinearLayout
             android:layout_width="match_parent"
