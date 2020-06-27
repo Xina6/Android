@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBR extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="REV";
+    public static final String DATABASE_NAME="REVIEWS";
     public static final String TABLE_NAME="Review";
     public static final String col1="id";
     public static final String col2="name";

@@ -14,13 +14,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Review extends AppCompatActivity {
     EditText Name, Description, Calificative;
     Button addReview;
     final DBR myDBR = new DBR(this);
-    int id=0;
-    TextView tvNume, tvDescriere, tvCalificativ;
+    static int id=70;
+
 
     public void showMessage(String title, String message){
         AlertDialog.Builder builder=new AlertDialog.Builder(this) ;
@@ -38,32 +39,42 @@ public class Review extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review);
-        addReview=(Button)findViewById(R.id.btnAddR);
+        addReview=(Button)findViewById(R.id.btnAddRe);
         Name=(EditText) findViewById(R.id.txtNameC);
-        Description=(EditText) findViewById(R.id.txtDescription);
-        Calificative=(EditText) findViewById(R.id.txtCalificative);
-        Cursor res=myDBR.getAllData();
+        Description=(EditText) findViewById(R.id.txtDescriptionR);
+        Calificative=(EditText) findViewById(R.id.txtCalificativeR);
+       Cursor res=myDBR.getAllData();
         if(res.getCount()==0) {
             showMessage("Eroare", "Nu exista date!");
             return;
         }
-        final android.widget.ListView lvItems = (ListView) findViewById(R.id.listview_review);
-        final CursorAR todoAdapter = new CursorAR(this, res);
-        lvItems.setAdapter(todoAdapter);
+
+
         addReview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openReview();
+                id++;
+                System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+                String name=Name.getText().toString();
+                String description=Description.getText().toString();
+                int calificative=Integer.parseInt(Calificative.getText().toString());
+                boolean isInserted= myDBR.insert(id,name,description,calificative);
+                if (isInserted == true)
+                    Toast.makeText(Review.this, "Adaugarea s-a realizat cu succes!",
+                            Toast.LENGTH_LONG).show();
+                else
+                    Toast.makeText(Review.this, "Eroare la adaugare!", Toast.LENGTH_LONG).
+                            show();
             }
         });
+
+        final android.widget.ListView lvItems = (ListView) findViewById(R.id.listview_review);
+        final CursorAR todoAdapter = new CursorAR(this, res);
+        lvItems.setAdapter(todoAdapter);
     }
 
     public void openReview()
-    {   id++;
-        String name=Name.getText().toString();
-        String description=Description.getText().toString();
-        int calificative=Integer.parseInt(Calificative.getText().toString());
-        myDBR.insert(id,name,description,calificative);
+    {
         Cursor res=myDBR.getAllData();
         if(res.getCount()==0) {
             showMessage("Eroare", "Nu exista date!");

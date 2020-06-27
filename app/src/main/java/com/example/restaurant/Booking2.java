@@ -61,7 +61,7 @@ public class Booking2 extends AppCompatActivity {
                 } else {
                     StringBuffer buffer = new StringBuffer();
                     while (res.moveToNext()) {
-                        buffer.append(res.getString(0) + ", " + res.getString(1) + ", " + res.getString(3) + "\n");
+                        buffer.append(res.getString(0) + ". " + res.getString(1) + ", " + res.getString(2) + ", " + res.getString(3)+", " + res.getString(4) +"\n");
                     }
                     Booking.setText(buffer.toString());
                 }

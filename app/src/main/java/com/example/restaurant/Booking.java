@@ -29,7 +29,7 @@ public class Booking extends AppCompatActivity {
     private TextView mDisplayTime;
     private TimePickerDialog.OnTimeSetListener mTimeSetListener;
     private static final String TAG = "Rezervare";
-    int id=0;
+    static int id=2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ActionBar actionBar = getSupportActionBar();
@@ -97,7 +97,7 @@ public class Booking extends AppCompatActivity {
         {
             @Override
             public void onTimeSet (TimePicker timePicker, int hour, int minute){
-                hour = hour + 1;
+                hour = hour;
                 Log.d(TAG, "onDateSet : " + hour + ":" + minute);
 
                 String time = hour + ":" + minute;

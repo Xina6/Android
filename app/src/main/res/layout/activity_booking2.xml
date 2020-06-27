@@ -13,7 +13,7 @@
     <TextView
         android:id="@+id/txtRez"
         android:layout_width="341dp"
-        android:layout_height="408dp"
+        android:layout_height="439dp"
         android:textSize="20sp" />
 
     <EditText
