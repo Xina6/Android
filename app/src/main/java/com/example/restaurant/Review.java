@@ -54,7 +54,6 @@ public class Review extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 id++;
-                System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
                 String name=Name.getText().toString();
                 String description=Description.getText().toString();
                 int calificative=Integer.parseInt(Calificative.getText().toString());
@@ -73,7 +72,7 @@ public class Review extends AppCompatActivity {
         lvItems.setAdapter(todoAdapter);
     }
 
-    public void openReview()
+    /*public void openReview()
     {
         Cursor res=myDBR.getAllData();
         if(res.getCount()==0) {
@@ -84,5 +83,5 @@ public class Review extends AppCompatActivity {
         final CursorAR todoAdapter = new CursorAR(this, res);
         lvItems.setAdapter(todoAdapter);
         id++;
-    }
+    }*/
 }
